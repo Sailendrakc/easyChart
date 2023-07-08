@@ -1,0 +1,14 @@
+update candlestick on ticker update in candleRenderer.
+put refresh in appending src and new src.
+
+make background line rendering seperate from candlestick rendering.
+candlestick rendering layer should have different layers for ex, candlestick and background for candlestickRenderer etc, coz they are part of it.
+
+
+also fix date - interval*2 , in add Left or right, coz what to do when there are only two candlesticks?
+maybe use request animation frame?
+preserve options while updating a candlestick?
+check what kind of data we get from cctx pro as our charting library needs specefic kind of data (string array, map or array) ,
+ specially when updating a ticker data and updating candlestick.
+ changing size of canvas.
+ tooltip.

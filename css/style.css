@@ -1,0 +1,19 @@
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    height: 100%;
+}
+
+*{
+    vertical-align: top;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#ChartContainer{
+    border: solid 1px black;
+}
